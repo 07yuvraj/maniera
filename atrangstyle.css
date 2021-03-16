@@ -1,0 +1,413 @@
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 30%;
+}
+body {
+  margin: 0%;
+  width: 100%;
+}
+.header {
+  margin: 0%;
+  padding-bottom: 3%;
+  text-align: center;
+  background-image: url("./assests/original4.gif");
+  background-size: cover;
+  color: white;
+}
+
+.header_content {
+  padding-top: 8%;
+  color: whitesmoke;
+}
+
+.header_content_h1 {
+  font-size: 800%;
+  text-shadow: 2px 2px black;
+  font-family: "Great Vibes", cursive;
+}
+
+.header_content_h6 {
+  font-size: 150%;
+}
+
+.header_content_h3 {
+  font-size: 300%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.navbar {
+  padding: 1% 10% 1% 5%;
+  overflow: hidden;
+  background-color: #0000004d !important;
+  color: white;
+  top: 0;
+  width: 100%;
+  border-bottom-left-radius: 20%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.582);
+  color: black !important;
+  border-radius: 35px;
+  text-decoration: none;
+}
+
+.atrangGroup {
+  width: 100%;
+}
+
+.about {
+  padding: 1% 10%;
+  color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 53% 47%;
+  background-color: rgba(204, 54, 92, 0.904);
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  font-size: 150%;
+}
+
+.about_header{
+  font-family: "Great Vibes", cursive;
+  font-size: 300%;
+}
+
+.about_other {
+  margin-right: 3%;
+  padding-top: 8%;
+}
+
+.about_content {
+  padding-top: 2%;
+}
+
+.about_paragraph {
+  text-align: center;
+  padding-right: 10%;
+}
+
+.group {
+  margin-right: 3%;
+  width: 100%;
+  height: 90%;
+  box-shadow: 0 4px 8px black, 0 4px 8px black;
+}
+
+.event_header {
+  font-family: "Great Vibes", cursive;
+  font-size: 400%;
+}
+
+.events {
+  padding-top: 2%;
+  text-align: center;
+  background-color: rgb(24, 56, 70);
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  );
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); 
+
+  color: white;
+}
+
+.event_poster {
+  padding-top: 10%;
+  padding: 4%;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px black, 0 4px 8px black;
+}
+
+.all_events {
+  padding: 1% 5%;
+}
+
+.event_description {
+  padding: 4%;
+  padding-top: 2%;
+  font-size: 120%;
+}
+
+.event_description_3 {
+  padding: 4%;
+  font-size: 110%;
+}
+
+.register_button {
+  padding-top: 3%;
+}
+
+.event_details {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 1%;
+}
+
+.event {
+  padding: 5%;
+  color: white;
+  text-shadow: rgb(204, 54, 91);
+  box-shadow: 0 1px 3px rgb(122, 138, 145), 0 1px 1px rgb(24, 56, 70);
+}
+
+.perks_header {
+  padding: 3%;
+}
+
+.event_description {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.event_heading {
+  font-size: 250%;
+  font-family: "Bubblegum Sans", cursive;
+  border-bottom: 3px solid rgb(204, 54, 91);
+}
+
+.event_link {
+  text-decoration: none;
+  padding: 1%;
+  color: white;
+  background-color: rgb(204, 54, 91);
+  box-shadow: 0 4px 8px black, 0 4px 8px black;
+}
+
+.mandla_link{
+  color: white;
+}
+
+.insta_handle{
+  font-size: 60%;
+}
+
+.mandla_link:hover{
+  color: white;
+}
+
+.rules_des {
+  font-size: medium;
+}
+
+.query_header {
+  font-size: 130%;
+  padding: 4%;
+}
+
+.event_link:hover {
+  color: white;
+}
+
+.media_sponsor {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.sponsors {
+  padding: 3%;
+  border-top: 2px solid black;
+  text-align: center;
+  color: white;
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+}
+
+.sponsors_header {
+  font-family: "Great Vibes", cursive;
+  font-size: 400%;
+}
+
+.main_sponsor {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sponsor {
+  padding: 5%;
+}
+
+.sponsor_main {
+  padding: 5% 15%;
+}
+
+.sponsor_logo {
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 8px black, 0 4px 8px black;
+}
+
+.contactUs {
+  padding-top: 0%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.contact_details {
+  padding-top: 7%;
+}
+
+.contactUs_header {
+  color: white;
+  font-size: 300%;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contact_logo {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.contact_links {
+  padding: 8%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fas {
+  color: white;
+  font-size: 200%;
+}
+
+.fab {
+  color: white;
+  font-size: 200%;
+}
+
+.fa-envelope:hover {
+  background-color: black;
+  color: #ea4335;
+}
+
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  );
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); 
+}
+
+.fa-facebook:hover {
+  border: 2px solid #355c7d;
+  background-color: white;
+  color: #355c7d;
+}
+
+.fa-whatsapp:hover {
+  border: 2px solid #06d755;
+  background-color: white;
+  color: #06d755;
+}
+
+@media only screen and (max-width: 600px) {
+  .header_content_h1 {
+    font-size: 500%;
+  }
+  .header_content_h3 {
+    font-size: 200%;
+  }
+  .all_events {
+    padding: 1% 5%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .about_content {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .contact {
+    grid-template-columns: 100%;
+  }
+  .contact {
+    grid-template-columns: 100%;
+  }
+  .contact_links {
+    padding: 5%;
+  }
+  .contactUs_header {
+    font-size: 300%;
+  }
+  .sponsor_main {
+    padding: 8%;
+  }
+  .event_heading {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .all_events {
+    padding: 1% 5%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-bottom: 5%;
+  }
+  .event_details {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 4%;
+  }
+  .media_sponsor {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .du_queries {
+    padding: 4% 37%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+    font-size: 120%;
+  }
+  .media_sponsor {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .du_queries {
+    padding: 4% 29%;
+  }
+  .query_header {
+    font-size: 120%;
+  }
+  .about_header{
+    font-size: 200%;
+  }
+}
