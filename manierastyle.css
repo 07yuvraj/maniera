@@ -269,4 +269,7 @@ body {
   .exhibition_details {
     grid-template-columns: 100%;
   }
+  .gallery_photo{
+    height: 40vh;
+  }
 }
